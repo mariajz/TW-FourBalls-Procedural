@@ -18,10 +18,6 @@ public class FourBallsProcedural extends PApplet {
         size(X_DIM,Y_DIM);
     }
 
-    @Override
-    public void setup() {
-        super.setup();
-    }
 
     @Override
     public void draw() {
@@ -34,10 +30,6 @@ public class FourBallsProcedural extends PApplet {
         ellipse( x_cord, y_cord*speed_factor, radius, radius );
         x_cord = x_cord + speed_factor;
         return x_cord;
-    }
-
-    private void paintWhite() {
-        background(255);
     }
 
 }
